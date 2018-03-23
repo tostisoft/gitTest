@@ -17,3 +17,7 @@ git checkout nameBranch
 ** Subir ramas creadas a gitHub   -- git push (remote) (branch)
 git push origin developB
 
+
+** Eliminar ramas en host remoto -- git push [remotename] :[branch]
+
+git push origin :developB

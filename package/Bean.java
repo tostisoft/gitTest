@@ -14,4 +14,12 @@ public class Bean{
 	public String toString(){
 		return this.id+","+this.desc;
 	}
+
+	public String getDesc(){
+		return this.desc;
+	}
+
+	public int getId(){
+		return this.id;
+	}
 }

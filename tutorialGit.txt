@@ -1,0 +1,19 @@
+
+vim README.md
+git init
+git add README.md
+git commit -m "master 1st commit"
+git remote add origin git@github.com:tostisoft/gitTest.git
+git push -u origin master
+
+
+**Crear ramas
+git branch nameBranch
+
+**Cambiar ramas
+git checkout nameBranch
+
+
+** Subir ramas creadas a gitHub   -- git push (remote) (branch)
+git push origin developB
+
